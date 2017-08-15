@@ -10,6 +10,7 @@ Basicamente, esse tipo de teste é responsável por avaliar se as partes de um p
 * **Teste de integração incremental** - O funcionamento do software é avaliado parte a parte, ou seja, é analisada cada etapa do processo, e essa análise pode ser executada tanto do nível de integração maior para a menor parte das interações, como do nível menor para o maior.
 
 * **Teste de integração não incremental** - Aqui a análise das interações e relacionamentos do programa são executadas de um modo global, sem a necessidade de uma avaliação passo a passo.
+## Teste do Sistema
 
 
 ## Referências
