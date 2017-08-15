@@ -7,7 +7,7 @@ Para um correto funcionamento de um software, é preciso que tudo aquilo que com
 ## Teste de Integração
 Basicamente, esse tipo de teste é responsável por avaliar se as partes de um programa estão funcionando corretamente em conjunto, assim durante o desenvolvimento, a equipe consegue identificar e corrigir possíveis problemas de compatibilidade, desempenho e dependência entre os componentes do programa. Existem duas formas de implementar esse tipo de teste:
 
-**Teste de integração incremental** - O funcionamento do software é avaliado parte a parte, ou seja, é analisada cada etapa do processo, e essa análise pode ser executada tanto do nível de integração maior para a menor parte das interações, como do nível menor para o maior.
+* **Teste de integração incremental** - O funcionamento do software é avaliado parte a parte, ou seja, é analisada cada etapa do processo, e essa análise pode ser executada tanto do nível de integração maior para a menor parte das interações, como do nível menor para o maior.
 
 **Teste de integração não incremental** - Aqui a análise das interações e relacionamentos do programa são executadas de um modo global, sem a necessidade de uma avaliação passo a passo.
 
