@@ -12,9 +12,13 @@ Basicamente, esse tipo de teste é responsável por avaliar se as partes de um p
 * **Teste de integração não incremental** - Aqui a análise das interações e relacionamentos do programa são executadas de um modo global, sem a necessidade de uma avaliação passo a passo.
 ## Teste do Sistema
 Durante o desenvolvimento do software, ele deve passar pelas fases de **testes unitários** e **testes de integração** para identificar e resolver falhas antes da conclusão do sistema, porém, mesmo após o mesmo estar concluído, ainda não é garantido que o programa estará livre de erros ou atenderá as espectativas do cliente, por isso serão apresentadas algumas técnicas de testes que são executadas para encontrar problemas após a conclusão do projeto:
+* **Teste Funcional** - Como o nome diz, o objetivo desse teste é verificar se as funcionalidades do sistema atendem ao que foi especificado, por exemplo, o sistema deve avisar se o usuário deu alguma entrada indevida em um campo específico como senha, aonde existe um padrão a ser seguido e foi digitado uma senha fora do padrão, se o programa aceitar, já é um erro que foi identificado. Também pode ser avaliado o desempenho como lentidão e se o sistema retorna o valor esperado(3).
+* **Teste de Usabilidade** - Busca garantir se a interface do sistema é acessível e de bom entendimento ao usuário, por exemplo, se as funcionalidades de acesso a diferentes operações numa interface de home baking estão bem localizadas e de fácil acesso(4).
 
 
 
 ## Referências
 (1) http://testesdesoftware.com/teste-de-unidade/ <br />
-(2) http://testesdesoftware.com/teste-de-integracao/
+(2) http://testesdesoftware.com/teste-de-integracao/ <br />
+(3) http://testesdesoftware.com/testes-funcionais/ <br />
+(4) http://www.idera.com.br/Servi%C3%A7os/TestedeSoftware.aspx <br />
