@@ -14,4 +14,5 @@ Basicamente, esse tipo de teste é responsável por avaliar se as partes de um p
 
 ## Referências
 (1) http://testesdesoftware.com/teste-de-unidade/
+----
 (2) http://testesdesoftware.com/teste-de-integracao/
