@@ -4,8 +4,10 @@
 Um software em desenvolvimento está passível de bugs ou falhas, e o teste é o processo responsável pela detecção dessas falhas durante o desenvolvimento do produto, para que elas sejam corrigidas antes da conclusão do programa. Aqui será tratado os principais tipos de testes usados atualmente.
 ## Teste Unitário
 Para um correto funcionamento de um software, é preciso que tudo aquilo que compõe ele esteja em correto funcionamento, pois se uma parte está defeituosa, ela irá prejudicar todo o resto do programa. Para evitar esse problema, o teste unitário é implementado nessas "partes" do sistema, onde o objetivo é identificar possíveis falhas que poderão comprometer o correto funcionamento do resto do software, por isso o nome **unitário**, por focar nas pequenas partes do código, na unidade. Assim, esse teste foca na identificação de bugs que estejam ocorrendo em linhas de código, métodos e outras partes menores do programa em si, analisando o problema de forma isolada(1).
+Exemplo: Um método que testa a senha de uma conta, ele deve testar se ao digitar os caracteres, os mesmos são substituídos por um caractere especial que oculta a senha, também deve testar se a senha atende os padrões para a criação daquela determinada conta e deve impedir que a senha seja copiada ou colada.
+
 ## Teste de Integração
-Basicamente, esse tipo de teste é responsável por avaliar se as partes de um programa estão funcionando corretamente em conjunto, assim durante o desenvolvimento, a equipe consegue identificar e corrigir possíveis problemas de compatibilidade, desempenho e dependência entre os componentes do programa(2). Existem duas formas de implementar esse tipo de teste:
+Basicamente, esse tipo de teste é responsável por avaliar se as partes de um programa estão funcionando corretamente em conjunto, assim durante o desenvolvimento, a equipe consegue identificar e corrigir possíveis problemas de compatibilidade, desempenho e dependência entre os componentes do programa, por exemplo, testar se a interação entre dois objetos de um sistema onde existem diferentes telas estão interagindo corretamente, pois ambos são dependentes, o programa deve ser capaz de mudar de tela corretamente sem a existência de travamentos ou lentidão(2). Também existem duas formas de implementar esse tipo de teste:
 
 * **Teste de integração incremental** - O funcionamento do software é avaliado parte a parte, ou seja, é analisada cada etapa do processo, e essa análise pode ser executada tanto do nível de integração maior para a menor parte das interações, como do nível menor para o maior.
 
@@ -14,6 +16,7 @@ Basicamente, esse tipo de teste é responsável por avaliar se as partes de um p
 Durante o desenvolvimento do software, ele deve passar pelas fases de **testes unitários** e **testes de integração** para identificar e resolver falhas antes da conclusão do sistema, porém, mesmo após o mesmo estar concluído, ainda não é garantido que o programa estará livre de erros ou atenderá as espectativas do cliente, por isso serão apresentadas algumas técnicas de testes que são executadas para encontrar problemas após a conclusão do projeto:
 * **Teste Funcional** - Como o nome diz, o objetivo desse teste é verificar se as funcionalidades do sistema atendem ao que foi especificado, por exemplo, o sistema deve avisar se o usuário deu alguma entrada indevida em um campo específico como senha, aonde existe um padrão a ser seguido e foi digitado uma senha fora do padrão, se o programa aceitar, já é um erro que foi identificado. Também pode ser avaliado o desempenho como lentidão e se o sistema retorna o valor esperado(3).
 * **Teste de Usabilidade** - Busca garantir se a interface do sistema é acessível e de bom entendimento ao usuário, por exemplo, se as funcionalidades de acesso a diferentes operações numa interface de home baking estão bem localizadas e de fácil acesso(4).
+* **Teste de Desempenho** - Esse teste consiste em avaliar dois aspectos fundamentais para um bom desempenho de software, o **tempo de de execução** e a **vazão**. É esperado que o software atenda os critérios de desempenho, tempo de resposta, se todos os componentes do sistema estão funcionando corretamente e tendo as respostas esperadas. Por exemplo, testes que monitoram se um determinado sistema de banco de dados não está sofrendo com um gargalo de informações(5).
 
 
 
@@ -22,3 +25,4 @@ Durante o desenvolvimento do software, ele deve passar pelas fases de **testes u
 (2) http://testesdesoftware.com/teste-de-integracao/ <br />
 (3) http://testesdesoftware.com/testes-funcionais/ <br />
 (4) http://www.idera.com.br/Servi%C3%A7os/TestedeSoftware.aspx <br />
+(5) https://www.tiespecialistas.com.br/2015/11/teste-de-desempenho-de-software/
