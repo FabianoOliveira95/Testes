@@ -27,7 +27,7 @@ O **Test-Driven Development** é basicamente a prática de escrever os testes an
 * Testar a funcionalidade, até que ela passe
 * Refatorar o código dessa funcionalidade
 * Escrever o próximo teste <br />
-**Vantagens do TDD** - A prática do TDD permite que toda a equipe que está no desenvolvimento do sistema, tenha um feedback rápido e maior conhecimento a cerca das funcionalidades do sistema, das que já foram implementadas e das que ainda serão; códigos menores e mais limpos; correção de bugs mais ágil tanto para detecção quanto para a correção dos mesmos; aumento da produtividade da equipe.
+##Vantagens do TDD - A prática do TDD permite que toda a equipe que está no desenvolvimento do sistema, tenha um feedback rápido e maior conhecimento a cerca das funcionalidades do sistema, das que já foram implementadas e das que ainda serão; códigos menores e mais limpos; correção de bugs mais ágil tanto para detecção quanto para a correção dos mesmos; aumento da produtividade da equipe.
 Muitos desenvolvedores ainda acham que é perca de tempo ou mais trabalho programar testes, porém isso é uma ideia muito equivocada, pois é muito visível que softwares que são entregues com bugs e com problemas de especificação acarretam em mais demanda de tempo e retrabalho, um software que passou por uma bateria de testes e avaliações antes da entrega ao cliente, tem grandes chances de atender os resultados esperados. Concluindo, o desenvolvimento que usa a prática TDD tende a ser mais curto e eficiente do que programas que não usaram esses processos, pois as chances de existirem bugs são grandes e dará mais trabalho ainda a manutenção do código dele(8).
 
 
