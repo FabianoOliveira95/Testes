@@ -17,6 +17,17 @@ Durante o desenvolvimento do software, ele deve passar pelas fases de **testes u
 * **Teste Funcional** - Como o nome diz, o objetivo desse teste é verificar se as funcionalidades do sistema atendem ao que foi especificado, por exemplo, o sistema deve avisar se o usuário deu alguma entrada indevida em um campo específico como senha, aonde existe um padrão a ser seguido e foi digitado uma senha fora do padrão, se o programa aceitar, já é um erro que foi identificado. Também pode ser avaliado o desempenho como lentidão e se o sistema retorna o valor esperado(3).
 * **Teste de Usabilidade** - Busca garantir se a interface do sistema é acessível e de bom entendimento ao usuário, por exemplo, se as funcionalidades de acesso a diferentes operações numa interface de home baking estão bem localizadas e de fácil acesso(4).
 * **Teste de Desempenho** - Esse teste consiste em avaliar dois aspectos fundamentais para um bom desempenho de software, o **tempo de de execução** e a **vazão**. É esperado que o software atenda os critérios de desempenho, tempo de resposta, se todos os componentes do sistema estão funcionando corretamente e tendo as respostas esperadas. Por exemplo, testes que monitoram se um determinado sistema de banco de dados não está sofrendo com um gargalo de informações(5).
+* **Teste de Carga** - Aqui o objetivo é avaliar se o sistema suporta uma grande quantidade de usuários simultâneos, por exemplo, o quanto o sistema de um banco irá aguentar se 5.000 usuários estiverem acessando ao mesmo tempo(6).
+* **Teste de Segurança** - Teste que busca garantir que o sistema não esteja passível de acessos ilegais, ele busca avaliar a vulnerabilidade do software(7)
+# TDD
+O **Test-Driven Development** é basicamente a prática de escrever os testes antes de escrever o código do programa em desenvolvimento, mas de forma cíclica, criando etapas desse processo e as repetindo. Antes de ser implementada uma nova funcionalidade no sistema, primeiro se escreve o teste que irá testar essa funcionalidade.
+## Ciclo de desenvolvimento TDD
+* Escrever o teste (este não estará funcionando, pois não existe funcionalidade para ser testada)
+* Implementar a funcionalidade
+* Testar a funcionalidade, até que ela passe
+* Refatorar o código dessa funcionalidade
+* Escrever o próximo teste
+
 
 
 
@@ -25,4 +36,6 @@ Durante o desenvolvimento do software, ele deve passar pelas fases de **testes u
 (2) http://testesdesoftware.com/teste-de-integracao/ <br />
 (3) http://testesdesoftware.com/testes-funcionais/ <br />
 (4) http://www.idera.com.br/Servi%C3%A7os/TestedeSoftware.aspx <br />
-(5) https://www.tiespecialistas.com.br/2015/11/teste-de-desempenho-de-software/
+(5) https://www.tiespecialistas.com.br/2015/11/teste-de-desempenho-de-software/ <br />
+(6) http://www.devmedia.com.br/testes-de-desempenho-carga-e-stress/26546
+(7) http://www.devmedia.com.br/teste-de-seguranca-agregando-confianca-ao-software/27792 <br />
