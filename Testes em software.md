@@ -40,6 +40,6 @@ Muitos desenvolvedores ainda acham que é perca de tempo ou mais trabalho progra
 (3) http://testesdesoftware.com/testes-funcionais/ <br />
 (4) http://www.idera.com.br/Servi%C3%A7os/TestedeSoftware.aspx <br />
 (5) https://www.tiespecialistas.com.br/2015/11/teste-de-desempenho-de-software/ <br />
-(6) http://www.devmedia.com.br/testes-de-desempenho-carga-e-stress/26546
+(6) http://www.devmedia.com.br/testes-de-desempenho-carga-e-stress/26546 <br />
 (7) http://www.devmedia.com.br/teste-de-seguranca-agregando-confianca-ao-software/27792 <br />
 (8) http://www.devmedia.com.br/test-driven-development-tdd-simples-e-pratico/18533
